@@ -7,7 +7,7 @@ interface DslField<T> {
 }
 class DOOV {
     {static}StepWhen when(StepCondition condition)
-    {static} StepCondition alwaysTrue()
+    {static}StepCondition alwaysTrue()
     {static}StepCondition alwaysTrue(String readable)
     {static}StepCondition alwaysFalse()
     {static}StepCondition alwaysFalse(String readable)
